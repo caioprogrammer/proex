@@ -23,7 +23,7 @@
                 </h2>
             </div>
             <div class="cta-banner__cta">
-                <a class="cta-banner__button" href="javascript:void(0)">CLIQUE AQUI PARA BAIXAR</a>
+                <a class="cta-banner__button" onclick="onLinkClick()" href="#0" >CLIQUE AQUI PARA BAIXAR</a>
             </div>
         </section>
 
@@ -127,5 +127,21 @@
             </div>
         </section>
     </main>
+
+    <footer id="#form" class="footer container">
+        <div class="footer__title">
+            CADASTRE-Se GRATUITAMENTE E BAIXE O EBOOK
+        </div>
+        <form action="">
+            <label for="">FORMULÁRIO</label>
+            <button>baixar o e-book</button>
+        </form>
+    </footer>
+
+    <script>
+        function onLinkClick() {
+            document.querySelector('footer').scrollIntoView();
+        }
+    </script>
 </body>
 </html>

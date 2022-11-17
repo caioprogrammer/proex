@@ -42,6 +42,8 @@ $gradient: linear-gradient(182deg, #0077ff 0%, rgba(255, 255, 255, 0) 100%);
 @mixin button {
     border-radius: 100px;
     background-color: #0073f6;
+    border: 0;
+    
 }
 
 .container {
