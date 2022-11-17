@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/Muli-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/Muli-Light.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/Muli-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/Muli.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/Muli-Bold.ttf") format("truetype");
+    font-weight: 900;
+}
+
+* {
+    font-family: "Muli";
+}
+
+// Colors Variables
+
+$color_primary: #0073f6;
+$color_black: #1e1c24;
+$color_gray: #b1aaaa;
+$color_gray-light: #1e1c24;
+$gradient: linear-gradient(182deg, #0077ff 0%, rgba(255, 255, 255, 0) 100%);
+
+// mixins 
+
+@mixin button {
+    border-radius: 100px;
+    background-color: #0073f6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1135px;
+    margin: 0 auto;
+}
